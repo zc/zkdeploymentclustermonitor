@@ -1,0 +1,3 @@
+[submodule "src/zim/zkdeploymentclustermonitor/basemodule"]
+	path = src/zim/zkdeploymentclustermonitor/basemodule
+	url = git://github.com/zc/basemonitor.git
