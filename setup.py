@@ -29,8 +29,8 @@ setup(
     license = 'ZPL 2.1',
 
     name = name, version = version,
-    long_description=open('README.md').read(),
-    description = open('README.md').read().strip().split('\n')[0],
+    long_description=open('README.rst').read(),
+    description = open('README.rst').read().strip().split('\n')[0],
     packages = [name.split('.')[0], name],
     namespace_packages = [name.split('.')[0]],
     package_dir = {'': 'src'},
